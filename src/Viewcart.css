@@ -1,0 +1,36 @@
+.mainviewcart{
+    width:500px;
+    height:120px;
+    border:2px solid black;
+    box-shadow: 2px 2px 5px grey,-2px -2px 5px grey;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding:10px;
+    margin:10px;
+}
+.carttitle{
+    text-transform: capitalize;
+    margin:10px;
+}
+.imgbox{
+    width:100px;
+    height:100%;
+    padding:5px;
+    border:1px solid black;
+    border-radius:3px;
+}
+.imgbox img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius:3px;
+}
+.add1,.add2{
+    margin-bottom: 4px;
+    text-transform: capitalize;
+}
+.total{
+    margin: 20px 10px;
+}
